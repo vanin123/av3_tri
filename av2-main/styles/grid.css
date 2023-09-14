@@ -1,0 +1,34 @@
+.div-todasimagens{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    text-align: center;
+    margin-top: 25px;
+    position: inherit;
+}
+
+.Imagem{
+    width: 80px!important;
+    height: 60px!important;
+}
+
+.titulo{
+    font-size: 10px;
+    color: rgb(0, 116, 35);
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+@media screen and (min-width:1024px) {
+
+.titulo{
+    display: block;
+    font-size: 20px;
+}
+.Imagem{
+    height: 10px;
+    border-top: 10px groove rgb(0, 179, 15);
+    border-bottom: 10px groove rgb(0, 180, 0);
+    width: 180px!important;
+    height: 160px!important;
+}
+}
