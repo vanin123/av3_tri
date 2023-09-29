@@ -31,4 +31,10 @@
     width: 180px!important;
     height: 160px!important;
 }
-}
+
+.titulo__cabecalho{
+    font-size: 30px;
+    font-family: Oswald;
+    color: rgb(4, 107, 1);
+    display: block;}
+    }
